@@ -5,43 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4163f3ad-4287-4ccf-a1ca-e468c9d5ee03" name="Changes" comment="Add visual interface">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/account.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/eyecam-co.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/faceit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/insure.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/loop-studios.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/manage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/myhome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/photosnap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shortly.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/the-air-filter-company.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Badge.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Stack.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/bg-header-desktop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/bg-header-mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icon-remove.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FilterPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/JobList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/JobPosition.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/filters/filter-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/filters/filter-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/filters/filter-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/positions/position-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/positions/position-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/positions/position-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/JobList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JobList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +30,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ouxPE3TNJKxNgzcMlEjkgU1ZPb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +49,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "configurable.tailwindcss",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
