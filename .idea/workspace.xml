@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4163f3ad-4287-4ccf-a1ca-e468c9d5ee03" name="Changes" comment="Add visual interface">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FilterPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilterPanel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/JobList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JobList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/JobPosition.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JobPosition.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/filters/filter-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/filters/filter-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/filters/filter-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/filters/filter-selectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
